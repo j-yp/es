@@ -1,0 +1,9 @@
+server: 
+ port: 7081
+ES:
+ esNodes:
+  - hostStr: 92.168.50.232
+    port: 9300
+
+aaa: 
+ bbb: 1231321

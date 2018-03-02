@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "my-props.es-nodes",
+    "type": "java.lang.String",
+    "description": "A description for 'my-props.es-nodes'"
+  },
+  {
+    "name": "aaa",
+    "type": "java.lang.String",
+    "description": "A description for 'aaa'"
+  },
+  {
+    "name": "ES.es-nodes",
+    "type": "java.lang.String",
+    "description": "A description for 'ES.es-nodes'"
+  }
+]}

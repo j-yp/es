@@ -1,0 +1,20 @@
+apply plugin: 'java-library'
+
+repositories {
+    maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+    implementation 'com.google.guava:guava:20.0'
+    testImplementation 'junit:junit:4.12'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.9.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '1.5.9.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.9.RELEASE'
+	compile group: 'net.java.dev.jna', name: 'jna', version: '4.5.1'
+	compile group: 'io.searchbox', name: 'jest', version: '5.3.3'
+	compile group: 'org.elasticsearch', name: 'elasticsearch', version: '6.1.2'
+	compile group: 'org.elasticsearch.client', name: 'transport', version: '6.1.2'
+	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.45'
+	compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: '1.5.9.RELEASE'
+}
