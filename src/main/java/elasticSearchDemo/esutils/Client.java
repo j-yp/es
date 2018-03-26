@@ -27,12 +27,12 @@ public class Client {
 	 * @return
 	 * @throws Exception 
 	 */
-	public ToXContent index(Object object) throws Exception {
+	/*public ToXContent index(Object object) throws Exception {
 		EntityVO entityVO = ESObjectHandle.getObjectParameters(object);
 		Map<String, Object> fieldMap = ESObjectHandle.getFields(object);
-		client.prepareIndex(entityVO.getIndex(), entityVO.getType(), entityVO.getId()).
+		//client.prepareIndex(entityVO.getIndex(), entityVO.getType(), entityVO.getId()).
 		
-	}
+	}*/
 	
 	public ToXContent get(Object object) throws Exception {
 		EntityVO entityVO = ESObjectHandle.getObjectParameters(object);
