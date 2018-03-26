@@ -17,4 +17,5 @@ dependencies {
 	compile group: 'org.elasticsearch.client', name: 'transport', version: '6.1.2'
 	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.45'
 	compile group: 'org.springframework.boot', name: 'spring-boot-configuration-processor', version: '1.5.9.RELEASE'
+	dependencies { compile files('src/main/resources/libs/QRCode.jar')}
 }
